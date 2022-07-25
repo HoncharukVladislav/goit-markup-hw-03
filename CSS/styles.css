@@ -248,7 +248,7 @@ flex-wrap:wrap;gap: 30px;}
 width: 270px;
 height: 368px;}
 .text-span {padding-left: 24px;
-padding-bottom: 20px;}
+padding-bottom: 20px;display:block}
 .peculiarities .white-section {background-color: #F5F5F5;}
 .peculiarities-iteam {-webkit-touch-callout: 270px;height: 72px;}
 .text-items  {width: 370px;height: 404px;}
