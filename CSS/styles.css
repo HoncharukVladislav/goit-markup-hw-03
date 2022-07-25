@@ -127,8 +127,7 @@ font-family: Roboto,sans-serif;}
     width: 270px ;
     display:inline-block;
 }
-.team-foto-portfolio {background-color: #ffffff;
-width: 370px; height: 404px;}
+.team-foto-portfolio {background-color: #ffffff;}
 .team-h {
     color: var(--second-text-color);
     font-weight: 500;
@@ -245,7 +244,6 @@ padding-right: 0;}
 flex-wrap:wrap;gap: 30px;}
 
 .site-team {display: flex;gap: 30px;}
-.text-items {}
 .team-section-items {
 width: 270px;
 height: 368px;}
@@ -253,7 +251,7 @@ height: 368px;}
 padding-bottom: 20px;}
 .peculiarities .white-section {background-color: #F5F5F5;}
 .peculiarities-iteam {-webkit-touch-callout: 270px;height: 72px;}
-
+.text-items  {width: 370px;height: 404px;}
 
 
 
