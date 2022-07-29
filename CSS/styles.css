@@ -5,11 +5,10 @@
 
 }
 /*body*/
-body {background-color: #F5F5F5; color: #757575;
+body {color: #757575;
 font-family: Roboto,sans-serif;}
 /*header*/
 .header-porfolio {background-color: #ffffff;
-    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -49,19 +48,21 @@ font-family: Roboto,sans-serif;}
 .site-contact .contact-link:hover, .site-contact .contact-link:focus {color: var(--active-hover-color);}
 /*main*/
 .hero {background-color: #2F303A;
+    text-align: center;
+    padding: 200px;
 max-width: 1600px;
 margin-left: auto;
 margin-right: auto;}
 .hero-title {
-    display: contents;
+    margin: auto;
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    max-width: 696px;
-    height: 120px;}
+    width: 696px;
+    }
     
 .hero-button {
     margin-left: auto;
@@ -116,16 +117,13 @@ margin-right: auto;}
 
     }
 .team-box {
-    display: block;
     padding-top: 20px;
     padding-left: 24px;
-    padding-bottom: 40px;
-    border: 1px solid #f80101;
+    padding-right: 24px;
+    padding-bottom: 20px;
     align-content: center;
-    max-height: 110px;
-    max-width: 370px;
-    background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    border-top: transparent;
 }
 .h-three-title {color: #212121;
     font-weight: 700;
@@ -136,8 +134,7 @@ margin-right: auto;}
     margin-bottom: 10px;
     min-width: 270px;}
 
-.occupation {background-color: #F5F5F5;
-padding-bottom: 94px;}
+.occupation {padding-top: 0px;}
 .section-title {
     color: var(--second-text-color);
     font-weight: 700;
@@ -147,7 +144,7 @@ padding-bottom: 94px;}
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     }
-.team-section {background-color: #F5F4FA;padding-bottom: 94px;padding-top: 94px;}
+.team-section {background-color: #F5F4FA;}
 .team-foto {
     background-color: #ffffff;
     max-width: 270px ;
@@ -159,15 +156,13 @@ padding-bottom: 94px;}
 }
 
 .team-h {
-    display: inline-block;
     color: var(--second-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    
     letter-spacing: 0.03em;
     margin-bottom: 10px;
-    width: 170px;}
+    }
     
 .position {
     text-align: center;
@@ -180,11 +175,8 @@ padding-bottom: 94px;}
     
 /*Футер*/
 .footer {background-color: #2F303A;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1600px;
-   padding-top: 60px;
-    padding-bottom: 60px;}
+padding-top: 60px;
+padding-bottom: 60px;}
 /* .footer_logo:hover,.footer_logo:focus {color:var(--active-hover-color);}
 .footer-link:hover,.footer-link:focus {color:var(--active-hover-color) ;}
 .footer-contacts:hover,.footer-contacts:focus {color: var(--active-hover-color);} */
@@ -200,21 +192,18 @@ padding-bottom: 94px;}
 .footer-web {color:#2196F3 ;}
 .footer-studio {color: #ffffff;}
 .footer-link {
-    display: inline-block;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-margin-bottom: 9px;}
+    letter-spacing: 0.03em;}
 .footer-contacts {
     display: inline-block;
     font-weight: 400;
     font-size: 14px;
     line-height:1,71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-margin-bottom: 9px;}
+    color: rgba(255, 255, 255, 0.6);}
 ul {list-style: none;}
 .link {text-decoration: none;}
 .visually-hidden {
@@ -250,21 +239,16 @@ padding-top: 200px;
 padding-left: 452px;
 padding-right:452px;
 }
-.container
 .container.occupation-div {margin-top: 94px;}
 .container.team-section-div {background-color: #F5F4FA;}
 .occupation-item {display: flex;gap: 30px;} 
-.container.portfolio-nav-div {
-    padding-top: 100px;
-    padding-bottom: 94px;
 
-}
 .portfolio-nav-button {
 display: flex;
 justify-content: center;
 gap: 8px;
-padding-bottom: 50px;}
-.footer-nav {margin-top: 20px;}
+margin-bottom: 50px;}
+
 .site-contact {display: flex;gap: 50px;}
 .nav-link {display: block;
 padding-top: 10px;
@@ -288,9 +272,9 @@ flex-wrap:wrap;gap: 30px;}
 width: 270px;
 height: 368px;}
 .text-span {display:block}
-.peculiarities.white-section {background-color: #F5F5F5;
+.peculiarities.white-section {
 padding-top: 94px;
-padding-bottom: 108px;}
+padding-bottom: 94px;}
 .peculiarities-iteam {-webkit-touch-callout: 270px;}
 .border { border-bottom: 1px solid #ECECEC;
 }
@@ -311,3 +295,6 @@ padding-bottom: 108px;}
 address {
     font-style: normal
 }
+.foto-block {display: block;max-width: 100%;height: auto;}
+.section {padding-top: 94px; padding-bottom: 94px;}
+.footer-nav-li:not(:last-child) {margin-bottom: 9px;}
